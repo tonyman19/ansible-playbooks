@@ -64,3 +64,8 @@
     src: 10.0.0.0/24
     proto: tcp
     port: '9301,9201'
+
+- name: UFW
+  ufw:
+    rule: allow
+    port: '1194'
